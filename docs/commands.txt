@@ -1,0 +1,8 @@
+
+To create a migration: npx sequelize-cli migration:generate --name migration_name
+
+Run the migration: npx sequelize-cli db:migrate
+
+To create a seeder: npx sequelize-cli seed:generate --name seed_name
+
+Run the seeder: npx sequelize-cli db:seed:all
